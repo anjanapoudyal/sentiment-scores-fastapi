@@ -7,3 +7,5 @@
 * add fastapi 'Helloworld' restapi
 * run application
 * verify 'Helloworld' restapi using curl command
+
+## Day2
