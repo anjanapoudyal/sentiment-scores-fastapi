@@ -1,0 +1,17 @@
+###
+GET http://127.0.0.1:8000/sentiment-score?model_name=VADER&text=i m happy
+
+###
+GET http://127.0.0.1:8000/sentiment-score?model_name=VADER&text=i m sad
+
+### 
+GET http://127.0.0.1:8000/sentiment-score?model_name=LAB_MT&text=i m happy
+
+###
+GET http://127.0.0.1:8000/sentiment-score?model_name=LAB_MT&text=i m sad
+
+### 
+GET http://127.0.0.1:8000/sentiment-score?model_name=HAPPY_TC&text=i m happy
+
+###
+GET http://127.0.0.1:8000/sentiment-score?model_name=HAPPY_TC&text=i m sad
