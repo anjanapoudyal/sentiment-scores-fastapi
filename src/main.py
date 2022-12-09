@@ -19,11 +19,11 @@ lab_mt = LabMt()
 
 @app.get('/sentiment-score')
 def sentiment_api(text: str, model_name: str):
-    if model_name == "VADER":
+    if [model_name == "VADER"]:
         return vader.score(text)
-    elif model_name == "HAPPY_TC":
+    elif [model_name == "HAPPY_TC"]:
         return happy_ts.score(text)
-    elif model_name == 'LAB_MT':
+    elif [model_name == 'LAB_MT']:
         return lab_mt.score(text)
     else:
         print("Invalid model_name")    

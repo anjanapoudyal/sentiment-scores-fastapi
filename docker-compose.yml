@@ -1,0 +1,10 @@
+services:
+  app:
+    image: docker.io/anjana48/sentiment-scores-fastapi
+    restart: always
+    build: 
+      context: ./
+      dockerfile: Dockerfile 
+    ports:
+      - 8000:80
+      

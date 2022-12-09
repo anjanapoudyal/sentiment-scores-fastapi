@@ -11,6 +11,7 @@ class LabMt:
             stopval=0.0, lang=lang, returnVector=True)
 
     def score(self, text):
+        
 
         Valence, fvec = emotion(text, self.labMT, shift=True,
                                 happsList=self.labMTvector)

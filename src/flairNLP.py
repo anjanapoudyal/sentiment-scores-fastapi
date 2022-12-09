@@ -1,11 +1,11 @@
 import flair
 from flair.data import Sentence
-from flair.models import TextClassifier
+
 
 
 class FLairNLP:
     def __init__(self):
-        self.classifier = flair.models.TextClassifier()
+        self.classifier = flair.models.TextClassifier.load('en-sentiment')
        
         
 
